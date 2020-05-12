@@ -3,8 +3,9 @@ package com.yedam.classes;
 public class StudentExample {
 	public static void main(String[] args) {
 		// 인스턴스 생성 (p.191 참고)
-
-		Student stu = new Student(); // class를 정의한후에 stu라는 변수에 값을넣어주는과정
+		
+		// class를 정의한후에 stu라는 변수에 값을넣어주는과정
+		Student stu = new Student(); 
 		stu.name = "Hong";
 		stu.age = 20;
 		stu.height = 178.4;
@@ -14,7 +15,8 @@ public class StudentExample {
 //		stu.exercise();
 
 //		System.out.println("이름은 : " + stu.name + " 나이는 : " + stu.age);
-
+		
+		// class를 정의한후에 stu1라는 변수에 값을넣어주는과정
 		Student stu1 = new Student();
 		stu1.name = "Park"; // stu1에서는 필드에 직접 값을 넣음
 		stu1.age = 30;
@@ -22,7 +24,8 @@ public class StudentExample {
 		stu1.weight = 70.5;
 //		stu1.eat("사과");
 //		System.out.println("이름은 : " + stu1.name + " 나이는 : " + stu1.age);	
-
+		
+		// class를 정의한후에 stu2라는 변수에 값을넣어주는과정
 		Student stu2 = new Student("Choi"); // stu1와 다르게 st2는 main필드에 choi라는 값을 생성한다
 		stu2.age = 40;
 		stu2.height = 168.4;
