@@ -1,8 +1,5 @@
 package com.yedam.classes.inherit;
 
-
-import com.yedam.classes.statics.Account;
-
 public class friends {
 		
 	public String name;	//이름
