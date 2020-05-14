@@ -2,8 +2,6 @@ package com.yedam.classes.inherit;
 
 import java.util.Scanner;
 
-import com.yedam.classes.statics.Account;
-
 public class friendsapplication {
 	Scanner scn = new Scanner(System.in);
 	friends[] Friends = new friends[100];
