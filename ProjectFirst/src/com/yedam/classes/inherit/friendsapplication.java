@@ -104,7 +104,7 @@ public class friendsapplication {
 			if(menu==1) {			//1.주소록추가
 				System.out.println("메뉴를 선택하세요.");
 				System.out.println("1.일반 주소록추가  2.학교친구 주소록추가  3.대학친구 주소록추가");
-				System.out.println("선택 > ");
+				System.out.print("선택 > ");
 				int menu2 = scn.nextInt(); scn.nextLine();
 				switch(menu2) {
 				case 1:

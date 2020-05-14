@@ -1,5 +1,5 @@
 package com.yedam.classes.inherit;
-	//회사친구
+	//회사친구 클래스
 public class cpfriends extends friends {
 	String department;
 	public cpfriends(String name, String telNum, String department) {
@@ -9,7 +9,7 @@ public class cpfriends extends friends {
 	@Override
 	public void showinfo() {
 //		super.showinfo();
-		System.out.println("이름은 : " + name + " 전화번호 : " + telNum + " 부서 : " + department);
+		System.out.println("이름은 : " + name + "  전화번호 : " + telNum +  "  부서 : " + department);
 		System.out.println("-----------------------------------------");
 		
 	}	

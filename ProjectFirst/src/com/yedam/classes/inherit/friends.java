@@ -1,8 +1,5 @@
 package com.yedam.classes.inherit;
 
-
-import com.yedam.classes.statics.Account;
-
 public class friends {
 		
 	public String name;	//이름
@@ -28,7 +25,7 @@ public class friends {
 		this.telNum = telNum;
 	}
 	public void showinfo() {
-		System.out.println("이름은 : " + name + " 전화번호 : " + telNum);
+		System.out.println("이름은 : " + name + "  전화번호 : " + telNum);
 		System.out.println("-----------------------------------------");
 	}
 	

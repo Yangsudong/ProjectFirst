@@ -9,7 +9,7 @@ public class acfriends extends friends {
 	@Override
 	public void showinfo() {
 //		super.showinfo();
-		System.out.println("이름은 : " + name + " 전화번호 : " + telNum + " 전공 : " + major);
+		System.out.println("이름은 : " + name + "  전화번호 : " + telNum + "  전공 : " + major);
 		System.out.println("-----------------------------------------");
 	}
 }
