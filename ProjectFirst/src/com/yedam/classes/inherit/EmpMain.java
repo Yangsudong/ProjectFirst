@@ -1,5 +1,5 @@
 package com.yedam.classes.inherit;
-
+//실행
 import java.util.Scanner;
 
 public class EmpMain {

@@ -1,5 +1,5 @@
 package com.yedam.classes.inherit;
-
+//클래스정의
 public class Employee {
 	private int employeeId;
 	private String lastName;
