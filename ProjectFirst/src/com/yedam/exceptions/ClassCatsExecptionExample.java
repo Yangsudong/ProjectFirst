@@ -15,7 +15,7 @@ public class ClassCatsExecptionExample {
 	public static void main(String[] args) {
 		Animal dog = new Dog();
 		try {
-		changeDog(dog);
+			changeDog(dog);
 		} catch (ClassCastException e) {
 			System.out.println("변환불가.");
 		}		
