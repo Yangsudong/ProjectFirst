@@ -1,4 +1,4 @@
-package com.yedam.classes.inherit;
+package com.yedam.list;
 //클래스정의
 public class Employee {
 	private int employeeId;

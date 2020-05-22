@@ -1,4 +1,4 @@
-package com.yedam.classes.inherit;
+package com.yedam.list;
 
 public class EmpServiceImpl implements EmpService{
 	

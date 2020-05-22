@@ -1,4 +1,4 @@
-package com.yedam.classes.inherit;
+package com.yedam.classes.interfaces;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

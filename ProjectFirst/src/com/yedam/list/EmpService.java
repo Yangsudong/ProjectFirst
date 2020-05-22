@@ -1,4 +1,4 @@
-package com.yedam.classes.inherit;
+package com.yedam.list;
 //인터페이스
 public interface EmpService {
 	// 기능정의. 구현X

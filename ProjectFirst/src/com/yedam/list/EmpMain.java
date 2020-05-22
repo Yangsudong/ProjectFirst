@@ -1,4 +1,4 @@
-package com.yedam.classes.inherit;
+package com.yedam.list;
 import java.awt.Checkbox;
 //실행
 import java.util.Scanner;
@@ -24,7 +24,7 @@ public class EmpMain {
 						
 			if(menu == 1) {				
 				System.out.println("입력 선택");
-				System.out.println("사원번호 입력 : ");
+				System.out.print("사원번호 입력 : ");
 				int empId;
 				try {
 					empId = scn.nextInt(); scn.nextLine();
@@ -66,16 +66,16 @@ public class EmpMain {
 			}
 			
 			else if(menu == 3) {
-				System.out.println("변경 사원번호 입력 : ");
+				System.out.print("변경 사원번호 입력 : ");
 				int empId = scn.nextInt();
-				System.out.println("급여 입력 : ");
+				System.out.print("급여 입력 : ");
 				int salary = scn.nextInt();
 				Employee emp = new Employee(empId,"",salary,"");
 				service.changeEmp(emp);							
 			}
 			
 			else if(menu == 4) {
-				System.out.println("삭제할 사원번호 입력 : ");
+				System.out.print("삭제할 사원번호 입력 : ");
 				int empId = scn.nextInt();
 				
 				service.removeEmp(empId);
