@@ -15,11 +15,11 @@ String title,content,name;
 	public String getTitle() {
 		return title;
 	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
 	public String getContent() {
 		return content;
+	}
+	public void setTitle(String title) {
+		this.title = title;
 	}
 	public void setContent(String content) {
 		this.content = content;
@@ -27,8 +27,9 @@ String title,content,name;
 	public void setName(String name) {
 		this.name = name;
 	}	
-	public void show() {
-		System.out.println("제목 : " + title + "  내용 : " + content + " 작성자 : " + name );
+	
+	public String toString() {
+		return "제목 : " + title + "\t"+"\t 내용 : " + content + "\t 작성자 : " + name;
 	}		
 	
 }				
