@@ -1,5 +1,4 @@
 package com.yedam.classes.interfaces;
-import java.awt.Checkbox;
 //실행
 import java.util.Scanner;
 
