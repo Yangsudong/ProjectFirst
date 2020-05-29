@@ -9,9 +9,7 @@ public class Code200529 {
 		int num = 0;
 		int counter = 0;
 
-		boolean randomball = true;
-
-		while (randomball) {
+		while (true) {
 			for (int i = 0; i < com.length; i++) {
 				com[i] = (int) (Math.random() * 9) + 1;
 			}
@@ -19,13 +17,12 @@ public class Code200529 {
 			if (com[0] != com[1] && com[0] != com[2] && com[1] != com[2])
 
 			{
-				randomball = false;
+				break;
 			}
 		}
-		randomball = true;
 
 		System.out.println("야구게임 시작");
-		while (randomball) {
+		while (true) {
 			int strike = 0;
 			int ball = 0;
 			System.out.print("숫자를 입력하세요");
@@ -52,13 +49,12 @@ public class Code200529 {
 					{
 						ball++;
 					}
-
 				}
 			}
 			System.out.println("스트라이크  : "+ strike + "\n" + "볼 : " + ball);
 			// 스트라이크가 세개는 맞췄다는 뜻이니깐 빠져나갈 수 있도록
 			if (strike == 3) {
-				randomball = false;
+				break;
 			}
 			counter++;
 		}
