@@ -7,7 +7,7 @@ package com.yedam.lambda;
 //	}	
 //}
 
-public class LambdaExample { 
+public class LamdaExample { 
 	public static void main(String[] args) {
 		// 1) 매개값이 없는 인터페이스
 		MyFunctionalInterface fi = new MyFunctionalInterface() {

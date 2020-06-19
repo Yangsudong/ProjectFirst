@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Code20200617 {
 	public static void main(String[] args) {
-		int [] num = new int[11];
+		int [] num = new int[10 ];
 		Random random = new Random();
 		
 		for(int i=0; i<num.length; i++) {
@@ -13,7 +13,7 @@ public class Code20200617 {
 				if(num[i] == num[j]) {
 					i--;
 				}
-			}		
+			}	
 		}
 		for(int k=0; k<num.length; k++) {
 			if(k==num.length) {
